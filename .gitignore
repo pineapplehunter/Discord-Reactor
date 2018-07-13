@@ -1,0 +1,16 @@
+# personal token file
+/config/token.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# jetbrains
+/.idea
