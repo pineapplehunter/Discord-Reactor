@@ -17,7 +17,7 @@ Now clone this repo and setup this project.
 ```bash
 $ git clone https://github.com/pineapplehunter/Discord-Reactor.git
 $ cd Discord-Reactor
-$ pipenv install
+$ poetry install # OR poetry update
 ```
 
 write your token into `/discord_reactor/config/token.py` with the ariable `TOKEN`. You can copy `/discord_reactor/config/token_sample.py` to make things simpler.
