@@ -15,7 +15,7 @@ $ sudo -H pip install pipenv
 Now clone this repo and setup this project.
 
 ```bash
-$ git clone https://github.com/peshogo/Discord-Reactor.git
+$ git clone https://github.com/pineapplehunter/Discord-Reactor.git
 $ cd Discord-Reactor
 $ pipenv install
 ```
