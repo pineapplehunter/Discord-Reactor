@@ -4,11 +4,11 @@ This is a discord bot that sends you a reaction when someone makes a reaction on
 
 ## Run
 
-I used pip env for this project.
-The setup is simple. run the commands bellow and install pipenv.
+I used [poetry][] for this project.
+The setup is simple. run the commands bellow and install poetry.
 
 ```bash
-$ sudo -H pip install pipenv
+$ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 # pip or pip3
 ```
 
@@ -20,22 +20,17 @@ $ cd Discord-Reactor
 $ pipenv install
 ```
 
-copy your token into `/config/token.py`. You can copy `/config/token_sample.py` to make things simpler.
+write your token into `/discord_reactor/config/token.py` with the ariable `TOKEN`. You can copy `/discord_reactor/config/token_sample.py` to make things simpler.
 
 ```bash
-$ cp config/token_sample.py config/token.py
+$ cp discord_reactor/config/token_sample.py discord_reactor/config/token.py
 ```
 
 Now run your bot!!!
 Run it with
 
 ```bash
-$ pipenv run python main.py
+$ poetry run reactor
 ```
 
-OR
-
-```bash
-$ pipenv shell
-(pipenvshell)$ python main.py
-```
+[poetry]:https://python-poetry.org/

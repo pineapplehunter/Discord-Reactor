@@ -1,5 +1,5 @@
 import discord
-from config.token import TOKEN
+from discord_reactor.config.token import TOKEN
 
 
 class Reactor(discord.Client):
@@ -15,5 +15,10 @@ class Reactor(discord.Client):
         print(f"sent message to {author}")
 
 
-bot = Reactor()
-bot.run(TOKEN)
+def main():
+    bot = Reactor()
+    bot.run(TOKEN)
+
+
+if __name__ == "__main__":
+    main()
